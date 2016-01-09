@@ -18,6 +18,8 @@
   "homepage": "https://github.com/bhargav175/freecoders#readme",
   "dependencies": {
     "express": "^4.13.3",
+    "isomorphic-fetch": "^2.2.0",
+    "node-fetch": "^1.3.3",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-redux": "^4.0.6",
