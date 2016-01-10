@@ -4,9 +4,11 @@ import fs from 'fs';
 import compress from 'compression';
 import config from '../../settings/dev';
 import fetch from 'node-fetch';
+var debug = require('debug')(process.pid);
 
 //import DebugMiddleware from './app/middleware/debug';
 
+debug('yo');
 let app = express();
 
 var client_id = config.client_id, redirect_uri = config.redirect_uri, scope =config.scope , state = config.state;
