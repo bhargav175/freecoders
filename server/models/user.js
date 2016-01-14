@@ -17,6 +17,15 @@ class User{
 	constructor(){
 
 	}
+	doLogin(){
+
+	}
+	doSignUp(){
+
+	}
+	save(){
+		
+	}
 }
 
 export default User;
